@@ -1,0 +1,132 @@
+body {
+  padding: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #742305;
+}
+article {
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  gap: 30px;
+
+  background-color: #fef7e2;
+  border-radius: 30px;
+  padding: 30px;
+}
+article img {
+  flex: 1 1 500px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+article .article__text {
+  flex: 1 1 400px;
+  line-height: 1.4;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 239, 220);
+  padding: 2vh 0;
+  border-radius: 70px;
+  flex-wrap: wrap;
+  margin-inline: 8vw;
+}
+
+button {
+  background-color: #ffeb84;
+  color: #8b4513;
+  border: none;
+  padding: 25px 70px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  max-width: fit-content;
+}
+
+.btnBig button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 80px;
+  font-size: 18px;
+}
+
+.nav img {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+.honeyCard {
+  width: 300px;
+  background-color: #fae0bf;
+  border-radius: 60px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.honeyCard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.honeyCard-content {
+  padding: 20px;
+}
+
+.honeyCard h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #742305;
+  font-weight: bold;
+}
+
+.honeyCard p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #742305;
+}
+
+.honeyCard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 20%;
+}
+
+.honeyCard .price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #742305;
+}
+
+.honeyCard button {
+  background-color: #ffdf7f;
+  border: none;
+  color: #742305;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.wrapper {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-block: 3vh;
+}
